@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loginpage</title>
+</head>
+<body  bgcolor="#7cfc00"><CENTER>
+    <H1>
+<form action="./login" method="post">
+    {% csrf_token %}
+    {{ Loginfrom }}
+    <input type="submit" value="Login">
+    
+</form>
+    </H1>
+</CENTER>
+
+</body>
+</html>
